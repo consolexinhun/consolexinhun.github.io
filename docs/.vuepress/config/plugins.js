@@ -15,25 +15,14 @@ module.exports = [
       thirdparty: [
         // 可选，默认 []
         {
-          title: '在MDN中搜索',
-          frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
+          title: '在Bing中搜索',
+          frontUrl: 'https://cn.bing.com/search?q=',
           behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
         },
         {
-          title: '在Runoob中搜索',
-          frontUrl: 'https://www.runoob.com/?s=',
-        },
-        {
-          title: '在Vue API中搜索',
-          frontUrl: 'https://cn.vuejs.org/v2/api/#',
-        },
-        {
-          title: '在Bing中搜索',
-          frontUrl: 'https://cn.bing.com/search?q=',
-        },
-        {
-          title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+          title: '在Google中搜索',
+          frontUrl: 'https://www.google.com/search?q=',
+          behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
         },
       ],
     },
@@ -83,11 +72,11 @@ module.exports = [
     {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
+        clientID: 'a694b86ee46387f179a3',
+        clientSecret: 'c42bd783dc1d3b3c039b61a64866d1ceb31fe06b',
+        repo: 'com', // GitHub 仓库
+        owner: 'consolexinhun', // GitHub仓库所有者
+        admin: ['consolexinhun'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
