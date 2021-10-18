@@ -1,4 +1,4 @@
-msg='添加评论插件'
+msg='加在线编辑'
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
 git add -A
