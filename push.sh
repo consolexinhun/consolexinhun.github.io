@@ -1,4 +1,4 @@
-msg='更换透明度'
+msg='欧拉图'
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
 git add -A
