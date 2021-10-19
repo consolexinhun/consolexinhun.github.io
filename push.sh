@@ -1,4 +1,4 @@
-msg='加在线编辑'
+msg='更换背景'
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
 git add -A
