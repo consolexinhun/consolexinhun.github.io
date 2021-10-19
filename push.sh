@@ -1,4 +1,4 @@
-msg='更换背景'
+msg='更换透明度'
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
 git add -A
