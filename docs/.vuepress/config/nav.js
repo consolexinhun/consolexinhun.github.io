@@ -3,9 +3,21 @@ module.exports = [
   { text: '首页', link: '/' },
   {
     text: "算法", link: "/algorithm/", items:[
-      {text: "图论", link: "/algorithm/"}
+      {text: "图论", link: "/pages/5a514b/"},
+      {text: "字符串", link: "/pages/3ce601/"},
     ]
   },
+  {
+    text: '分类', link: '/categories/'
+  },
+  {
+    text: '标签', link: '/tags/'
+  },
+  {
+    text: '归档', link: '/archives/'
+  }
+]
+
   // {
   //   text: '前端', link: '/web/', items: [
   //     // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
@@ -22,13 +34,3 @@ module.exports = [
   //     { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
   //   ],
   // },
-  {
-    text: '分类', link: '/categories/'
-  },
-  {
-    text: '标签', link: '/tags/'
-  },
-  {
-    text: '归档', link: '/archives/'
-  }
-]
