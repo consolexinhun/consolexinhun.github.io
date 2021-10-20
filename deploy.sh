@@ -18,8 +18,8 @@ githubUrl=https://consolexinhun:${GITHUB_TOKEN}@github.com/consolexinhun/console
 
 # githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
-# git config --global user.name "consolexinhun"
-# git config --global user.email "consolexin@gmail.com"
+git config --global user.name "consolexinhun"
+git config --global user.email "consolexin@gmail.com"
 
 git init
 git add -A
