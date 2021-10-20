@@ -9,23 +9,23 @@ npm run build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
-# deploy to github pages
-# echo 'b.xugaoyi.com' > CNAME
 
 msg='deploy'
-githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
-git config --global user.name "consolexinhun"
-git config --global user.email "consolexin@gmail.com"
+GITHUB_TOKEN="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"
+
+githubUrl=https://consolexinhun:${GITHUB_TOKEN}@github.com/consolexinhun/consolexinhun.github.io.git
+
+# githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
+
+# git config --global user.name "consolexinhun"
+# git config --global user.email "consolexin@gmail.com"
 
 git init
 git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
-# deploy to coding pages
-# echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
-# echo 'google.com, pub-7828333725993554, DIRECT, f08c47fec0942fa0' > ads.txt # 谷歌广告相关文件
 
 # if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
 #   codingUrl=git@e.coding.net:xgy/xgy.git
