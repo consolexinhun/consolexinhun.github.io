@@ -15,6 +15,9 @@ cd docs/.vuepress/dist
 msg='deploy'
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
+git config --global user.name "consolexinhun"
+git config --global user.email "consolexin@gmail.com"
+
 git init
 git add -A
 git commit -m "${msg}"
