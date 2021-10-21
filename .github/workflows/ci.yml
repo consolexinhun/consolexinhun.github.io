@@ -35,4 +35,4 @@ jobs:
         run: |
           git add -A 
           git commit -m "deploy 侧边栏 push"
-          git push -f https://consolexinhun:${{GITHUB_TOKEN}}@github.com/consolexinhun/consolexinhun.github.io.git master
+          git push -f https://consolexinhun:${GITHUB_TOKEN}@github.com/consolexinhun/consolexinhun.github.io.git master
