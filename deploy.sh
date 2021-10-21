@@ -27,11 +27,7 @@ git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
 
-cd -
+cd -  # 回到上次所在的工作空间
 rm -rf docs/.vuepress/dist
 
-git init
-git add -A 
-git commit -m "deploy 侧边栏 push"
 
-git push -f $githubUrl master:master
