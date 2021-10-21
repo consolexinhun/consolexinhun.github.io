@@ -27,7 +27,5 @@ git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
 
-cd -  # 回到上次所在的工作空间
+cd -
 rm -rf docs/.vuepress/dist
-
-
