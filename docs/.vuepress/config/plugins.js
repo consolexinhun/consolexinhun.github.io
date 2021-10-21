@@ -96,7 +96,5 @@ module.exports = [
       },
     },
   ],
-  [
-    "vuepress-plugin-mathjax",
-  ]
+  "vuepress-plugin-mathjax",
 ]
