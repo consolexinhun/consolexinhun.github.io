@@ -2,7 +2,7 @@
 
 set -e
 
-msg='欧拉图'
+msg='拓扑排序'
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
 git pull origin master
