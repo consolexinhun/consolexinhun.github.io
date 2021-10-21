@@ -7,7 +7,7 @@ githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
 git pull origin master
 
-npm run build
+npm install && npm run build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
