@@ -8,7 +8,9 @@ module.exports = [
     ],
   },
   {
-    text: "C++", link: "/cplusplus/"
+    text: "C++", link: "/cplusplus/", items:[
+      {text: "c++基础", link: "/pages/aa80a1/"},
+    ]
   },
   {
     text: '分类', link: '/categories/'
