@@ -2,7 +2,7 @@
 
 set -e
 
-msg='没变'
+msg='增加了分类'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
