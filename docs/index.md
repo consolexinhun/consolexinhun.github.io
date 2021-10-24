@@ -12,6 +12,11 @@ features: # 可选的
     details: 算法
     link: /algorithm/ # 可选
     imgUrl: /img/web.png # 可选
+
+  - title: C++
+    details: C++
+    link: /cplusplus/
+    imgUrl: /img/other.png
 #   - title: 技术
 #     details: 技术文档、教程、技巧、总结等文章
 #     link: /technology/

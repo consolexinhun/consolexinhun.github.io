@@ -5,7 +5,10 @@ module.exports = [
     text: "算法", link: "/algorithm/", items:[
       {text: "图论", link: "/pages/5a514b/"},
       {text: "字符串", link: "/pages/3ce601/"},
-    ]
+    ],
+  },
+  {
+    text: "C++", link: "/cplusplus/"
   },
   {
     text: '分类', link: '/categories/'
