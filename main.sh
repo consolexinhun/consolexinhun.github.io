@@ -2,7 +2,7 @@
 
 set -e
 
-msg='none'
+msg='None'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
