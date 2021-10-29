@@ -2,7 +2,7 @@
 
 set -e
 
-msg='最小生成树和并查集'
+msg='二分图'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
