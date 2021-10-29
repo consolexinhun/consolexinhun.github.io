@@ -2,7 +2,7 @@
 
 set -e
 
-msg='None'
+msg='最小生成树和并查集'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
