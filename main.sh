@@ -2,7 +2,7 @@
 
 set -e
 
-msg='二分图'
+msg='背包'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
