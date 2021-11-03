@@ -2,7 +2,7 @@
 
 set -e
 
-msg='完全背包'
+msg='多重背包'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
