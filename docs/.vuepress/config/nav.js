@@ -6,7 +6,8 @@ module.exports = [
       {text: "图论", link: "/pages/5a514b/"},
       {text: "字符串", link: "/pages/3ce601/"},
       {text: "动态规划", link: "/pages/37ebac/"},
-      {text: "二分", link: "/pages/cc5f84/"}
+      {text: "二分", link: "/pages/cc5f84/"},
+      {text: "滑动窗口", link: "/pages/30b0a0/"},
     ],
   },
   {
