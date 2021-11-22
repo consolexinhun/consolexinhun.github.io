@@ -17,7 +17,7 @@ module.exports = [
     text: "C++", link: "/cplusplus/", items:[
       {text: "c++基础", link: "/pages/aa80a1/"},
       {text: "相关书籍", items:[
-          {text: "c++与数据结构", link: "/cplusplus_and_data_struct/"}
+          {text: "《c++与数据结构》", link: "/cplusplus_and_data_struct/"}
       ]}
     ]
   },
