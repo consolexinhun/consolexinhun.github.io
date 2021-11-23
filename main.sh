@@ -2,7 +2,7 @@
 
 set -e
 
-msg='多重背包'
+msg='最小覆盖子串'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
