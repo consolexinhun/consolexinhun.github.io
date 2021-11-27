@@ -10,12 +10,16 @@ module.exports = [
         {text: "二分", link: "/pages/cc5f84/"},
         {text: "滑动窗口", link: "/pages/30b0a0/"},
       ]},
-      
+      {text: "相关书籍", items:[
+        {text: "《算法导论》", link: "/introduction_to_algorithm/"}
+      ]}
     ],
   },
   {
     text: "C++", link: "/cplusplus/", items:[
-      {text: "c++基础", link: "/pages/aa80a1/"},
+      {text: "基础知识", items: [
+        {text: "c++基础", link: "/pages/aa80a1/"},
+      ]},
       {text: "相关书籍", items:[
           {text: "《c++与数据结构》", link: "/cplusplus_and_data_struct/"}
       ]}
