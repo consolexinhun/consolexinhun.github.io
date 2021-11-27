@@ -24,6 +24,18 @@ module.exports = [
           {text: "《c++与数据结构》", link: "/cplusplus_and_data_struct/"}
       ]}
     ]
+  },{
+    text: "基本功", link: "/base/", items:[
+      {text: "计算机网络", items:[
+        {text: "计算机网络", link: "/pages/353f94/"},
+      ]},
+      {text: "计算机系统", items:[
+        {text: "计算机系统", link: "/pages/5c7a4b/"},
+      ]},
+      {text: "数据库", items: [
+        {text: "数据库", link: "/pages/666851/"},
+      ]}
+    ]
   },
   {
     text: '分类', link: '/categories/'
