@@ -2,7 +2,7 @@
 
 set -e
 
-msg='最小覆盖子串'
+msg='插入排序'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
