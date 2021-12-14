@@ -2,7 +2,7 @@
 
 set -e
 
-msg='插入排序'
+msg='归并排序'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
