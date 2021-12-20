@@ -2,7 +2,7 @@
 
 set -e
 
-msg='快速排序'
+msg='LFU'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
