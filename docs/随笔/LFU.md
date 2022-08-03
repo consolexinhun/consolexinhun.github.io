@@ -6,9 +6,8 @@ title: LFU
 date: 2021-12-20 21:52:26
 permalink: /pages/1f0d76/
 tags: 
-  - 
+  -
 ---
-
 内存管理之页面置换算法
 
 ### LFU
@@ -20,7 +19,7 @@ least frequently used
 :::
 
 ```cpp
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 
 using namespace std;
 
@@ -105,7 +104,6 @@ int main() {
 }
 ```
 
-
 ### LRU
 
 least recently used
@@ -113,7 +111,6 @@ least recently used
 :::note
 当页面的缓存满了时，选择最久没有访问的页面替换掉
 :::
-
 
 ```cpp
 
