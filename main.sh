@@ -1,8 +1,8 @@
 #!/bin/bash
 
-set -e
+set -ex
 
-msg='LFU'
+msg='remove unuse'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
