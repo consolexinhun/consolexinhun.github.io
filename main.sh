@@ -2,7 +2,11 @@
 
 set -ex
 
-msg='sort'
+if [ ! "$1" ]; then
+    msg="null"
+else
+    msg='sort'
+fi
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
