@@ -5,7 +5,7 @@ set -ex
 if [ ! "$1" ]; then
     msg="null"
 else
-    msg='sort'
+    msg="$1"
 fi
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
@@ -13,8 +13,8 @@ githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 git pull origin master
 
 # npm install && npm run build  # npm install 有毒
-# yarn && yarn build  
-yarn build
+yarn && yarn build  
+# yarn build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
