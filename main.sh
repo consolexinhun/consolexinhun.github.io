@@ -2,7 +2,7 @@
 
 set -ex
 
-msg='remove unuse'
+msg='sort'
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 

@@ -9,6 +9,7 @@ module.exports = [
         {text: "动态规划", link: "/pages/37ebac/"},
         {text: "二分", link: "/pages/cc5f84/"},
         {text: "滑动窗口", link: "/pages/30b0a0/"},
+        {text: "排序", link: "/pages/a0391b/"}
       ]}
     ],
   },
