@@ -10,7 +10,7 @@ fi
 
 githubUrl=git@github.com:consolexinhun/consolexinhun.github.io.git
 
-git pull origin master
+# git pull origin master
 
 # npm install && npm run build  # npm install 有毒
 yarn && yarn build  
