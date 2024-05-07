@@ -19,13 +19,6 @@ yarn && yarn build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
-# GITHUB_TOKEN="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"
-
-
-# githubUrl=https://consolexinhun:${GITHUB_TOKEN}@github.com/consolexinhun/consolexinhun.github.io.git
-
-# git config --global user.name "consolexinhun"
-# git config --global user.email "consolexin@gmail.com"
 
 git init
 git add -A
