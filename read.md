@@ -9,4 +9,5 @@
 3、创建具体专题
 
 
-index 设置推荐专题
+修改导航 `docs/.vuepress/config/nav.js`
+
