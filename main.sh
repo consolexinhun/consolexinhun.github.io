@@ -35,3 +35,5 @@ git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master # 推送到github gh-pages分支
 
+# npm config set registry=https://registry.npmmirror.com
+
