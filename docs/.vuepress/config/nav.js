@@ -30,6 +30,16 @@ module.exports = [
     ]
   },
   {
+    text: "SQL", link: "/sql/", items: [
+      {
+        text: "书籍", items: [
+          { text: "SQL必知必会", link: "/pages/eef00a/" },
+          { text: "MySQL必知必会", link: "/pages/fbcf66/" }
+        ]
+      }
+    ]
+  },
+  {
     text: '分类', link: '/categories/'
   },
   {
